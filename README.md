@@ -143,7 +143,7 @@ If you would like to help, please take a look at the list of
 This project is licensed under **General Public License v3.0 license**. See the [LICENSE](LICENSE) file for more info.
 
 ## Copyright
-2017 - 2018 Varun Sridharan, [varunsridharan.in][website]
+2017 - 2019 Varun Sridharan, [varunsridharan.in][website]
 
 If you find it useful, let me know :wink:
 
