@@ -1,16 +1,18 @@
 {
-  "name"        : "varunsridharan/wp-plugin-upgrader",
-  "description" : "Simple WP Library To Handle Plugin Upgrade",
+  "name"        : "varunsridharan/wp-plugin-version-management",
+  "description" : "Simple WordPress Plugin Library To Handle Version Management To Provide Easy Upgrade Handling.",
   "type"        : "library",
   "support"     : {
     "email"  : "varunsridharan23@gmail.com",
-    "docs"   : "https://github.com/varunsridharan/wp-plugin-upgrader/",
-    "issues" : "https://github.com/varunsridharan/wp-plugin-upgrader/issues"
+    "docs"   : "https://github.com/varunsridharan/wp-plugin-version-management/",
+    "issues" : "https://github.com/varunsridharan/wp-plugin-version-management/issues"
   },
-  "homepage"    : "https://github.com/varunsridharan/wp-plugin-upgrader",
+  "homepage"    : "https://github.com/varunsridharan/wp-plugin-version-management",
   "license"     : "GPL-3.0-or-later",
   "autoload"    : {
-    "files" : [ ]
+    "psr-4" : {
+      "Varunsridharan\\WordPress\\" : "./src"
+    }
   },
   "authors"     : [
     {
