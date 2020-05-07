@@ -114,8 +114,6 @@ if ( ! class_exists( '\Varunsridharan\WordPress\Plugin_Version_Management' ) ) {
 
 		/**
 		 * Retrives Saved Values From DB.
-		 *
-		 * @return $this
 		 */
 		protected function get_db_values() {
 			if ( empty( $this->db ) ) {
@@ -132,7 +130,6 @@ if ( ! class_exists( '\Varunsridharan\WordPress\Plugin_Version_Management' ) ) {
 					'logs'    => false,
 				) );
 			}
-			return $this->db;
 		}
 
 		/**
