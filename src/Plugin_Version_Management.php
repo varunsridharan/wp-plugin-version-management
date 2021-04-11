@@ -2,10 +2,6 @@
 
 namespace Varunsridharan\WordPress;
 
-if ( ! defined( 'ABSPATH' ) ) {
-	die;
-}
-
 if ( ! class_exists( '\Varunsridharan\WordPress\Plugin_Version_Management' ) ) {
 	/**
 	 * Class Plugin_Version_Management
@@ -53,7 +49,6 @@ if ( ! class_exists( '\Varunsridharan\WordPress\Plugin_Version_Management' ) ) {
 
 		/**
 		 * @var array
-		 * @access
 		 */
 		protected $callbacks = array();
 
